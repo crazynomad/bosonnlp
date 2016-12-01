@@ -1,6 +1,6 @@
 {
   "name": "bosonnlp",
-  "version": "0.0.9",
+  "version": "0.2.0",
   "description": "bosonnlp node sdk.",
   "main": "index.js",
   "scripts": {
@@ -11,15 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/liwenzhu/bosonnlp.git"
+    "url": "https://github.com/crazynomad/bosonnlp.git"
   },
   "keywords": [
     "bosonnlp"
   ],
-  "author": "VinceLee <Lee.wenzhu@gmail.com>",
+  "author": "Burn Wang <burn.wang@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/liwenzhu/bosonnlp/issues"
+    "url": "https://github.com/crazynomad/bosonnlp"
   },
-  "homepage": "https://github.com/liwenzhu/bosonnlp"
+  "homepage": "https://github.com/crazynomad/bosonnlp",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "request": "^2.79.0"
+  }
 }
